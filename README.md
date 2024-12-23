@@ -12,27 +12,25 @@ Bem-vindo ao **NomohTools**! 🚀 Um conjunto de ferramentas poderosas e prátic
 ## 📚 Instalação
 
 ```bash
-npm install nomoh-tools
+npm i nomohtools
 ```
 
 ## 🚀 Como usar
 
 Importe as ferramentas que deseja usar:
 
-```javascript
-const { minhaFerramenta } = require('nomoh-tools');
+```typescript
+import 'nomohtools';
 
 // Exemplo de uso
-minhaFerramenta(parametros);
+const texto = 'olá, mundo!';
+texto.capitalizeFirstLetter(); //converte a primeira letra em maiúscula
 ```
 
 ## 📦 Ferramentas Disponíveis
 
-### 1. `minhaFerramenta` ⚙️
-Descrição breve do que essa ferramenta faz.
-
-### 2. `outraFerramenta` 🛠️
-Descrição breve do que essa ferramenta faz.
+### 1. `StringTools` ⚙️
+ [string](docs/string.md)
 
 ## 🛠️ Desenvolvimento
 

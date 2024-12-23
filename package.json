@@ -1,6 +1,6 @@
 {
   "name": "nomohtools",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Biblioteca de utilitarios",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.mjs",
@@ -16,7 +16,7 @@
     "build:esm": "  tsc -p tsconfig.esm.json && npm run rename:esm",
     "build": "npm run build:cjs && npm run build:esm",
     "clean": "rimraf dist",
-    "rename:esm": "/bin/zsh ./scripts/fix-mjs.sh",
+    "rename:esm": "node ./scripts/fix-mjs.js",
     "prepack": "npm run clean && npm run build"
   },
   "repository": {
