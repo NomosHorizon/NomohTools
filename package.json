@@ -1,6 +1,6 @@
 {
   "name": "nomohtools",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Biblioteca de utilitarios",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.mjs",
