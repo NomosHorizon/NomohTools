@@ -116,6 +116,11 @@ declare global {
        */
       removeAccents(): string; // RemoverAcentos
     }
+
+    interface Number {
+
+      isNumber(): boolean; // IsNumber
+    }
   }
   // Isso é necessário para transformar este módulo em uma extensão global
   export {}; 
